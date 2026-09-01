@@ -88,7 +88,7 @@ I'm continuously building and learning through practical projects.
 
 ---
 
-## 📊 GitHub Stats
+# 📊 GitHub Stats
 
 <p align="center">
   <img
