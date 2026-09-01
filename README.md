@@ -348,16 +348,5 @@ I'm continuously building and learning through practical projects.
 ---
 
 <!-- AUTO-PROJECTS-START -->
-
-## 🚀 Latest GitHub Projects
-
-<p align="center">
-  <a href="https://github.com/CoderAzharAnsari62?tab=repositories">
-    <img
-      src="https://img.shields.io/badge/🔎%20Explore%20My%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white"
-      alt="Explore My Repositories"
-    />
-  </a>
-</p>
-
+No public projects available yet.
 <!-- AUTO-PROJECTS-END -->
