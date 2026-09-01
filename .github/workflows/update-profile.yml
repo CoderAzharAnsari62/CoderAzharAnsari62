@@ -2,7 +2,14 @@ name: Update GitHub Profile
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */6 * * *"
+
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "README.md"
+
   workflow_dispatch:
 
 permissions:
@@ -14,9 +21,78 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Update profile
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "GitHub profile update workflow is running..."
-          echo "Last checked: $(date -u)"
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+          from pathlib import Path
+
+          username = "CoderAzharAnsari62"
+          readme = Path("README.md")
+
+          url = f"https://api.github.com/users/{username}/repos?per_page=100&sort=updated"
+
+          request = urllib.request.Request(
+              url,
+              headers={
+                  "Authorization": f"Bearer {os.environ['GH_TOKEN']}",
+                  "Accept": "application/vnd.github+json"
+              }
+          )
+
+          with urllib.request.urlopen(request) as response:
+              repos = json.load(response)
+
+          repos = [
+              repo for repo in repos
+              if not repo["fork"] and repo["name"] != username
+          ]
+
+          repos = repos[:6]
+
+          section = "## 🚀 Latest GitHub Projects\n\n"
+
+          for repo in repos:
+              name = repo["name"]
+              description = repo["description"] or "No description available."
+              html_url = repo["html_url"]
+
+              section += f"### 📁 [{name}]({html_url})\n\n"
+              section += f"{description}\n\n"
+
+          start = "<!-- AUTO-PROJECTS-START -->"
+          end = "<!-- AUTO-PROJECTS-END -->"
+
+          content = readme.read_text(encoding="utf-8")
+
+          new_block = f"{start}\n{section}{end}"
+
+          if start in content and end in content:
+              before = content.split(start)[0]
+              after = content.split(end, 1)[1]
+              content = before + new_block + after
+          else:
+              content = content.rstrip() + "\n\n" + new_block + "\n"
+
+          readme.write_text(content, encoding="utf-8")
+          PY
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Auto update GitHub profile"
+            git push
+          fi
