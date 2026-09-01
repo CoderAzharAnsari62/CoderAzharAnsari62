@@ -104,31 +104,19 @@ I'm continuously building and learning through practical projects.
 # 📊 GitHub Stats
 
 <p align="center">
-
-  <img
-    src="https://img.shields.io/github/followers/CoderAzharAnsari62?style=for-the-badge&label=Followers&logo=github"
-    alt="GitHub Followers"
-  />
-
-  <img
-    src="https://img.shields.io/github/stars/CoderAzharAnsari62?style=for-the-badge&label=Total%20Stars&logo=github"
-    alt="GitHub Stars"
-  />
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/overview.dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/overview.light.svg">
+    <img src="./assets/overview.light.svg" alt="GitHub Profile Statistics" />
+  </picture>
 </p>
 
 <p align="center">
-
-  <img
-    src="https://img.shields.io/github/commit-activity/y/CoderAzharAnsari62/CoderAzharAnsari62?style=for-the-badge&label=Yearly%20Commits&logo=github"
-    alt="Yearly Commits"
-  />
-
-  <img
-    src="https://img.shields.io/github/last-commit/CoderAzharAnsari62/CoderAzharAnsari62?style=for-the-badge&label=Last%20Update&logo=github"
-    alt="Last Update"
-  />
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/lifetime.dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/lifetime.light.svg">
+    <img src="./assets/lifetime.light.svg" alt="GitHub Contribution History" />
+  </picture>
 </p>
 
 <p align="center">
@@ -145,43 +133,26 @@ I'm continuously building and learning through practical projects.
 ## 🔥 GitHub Streak
 
 <p align="center">
-
-  <img
-    src="https://img.shields.io/github/commit-activity/m/CoderAzharAnsari62/CoderAzharAnsari62?style=for-the-badge&label=Monthly%20Commits&logo=github"
-    alt="Monthly GitHub Commits"
-  />
-
-  <img
-    src="https://img.shields.io/github/commit-activity/w/CoderAzharAnsari62/CoderAzharAnsari62?style=for-the-badge&label=Weekly%20Commits&logo=github"
-    alt="Weekly GitHub Commits"
-  />
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions.dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/contributions.light.svg">
+    <img src="./assets/contributions.light.svg" alt="GitHub Contribution Streak" />
+  </picture>
 </p>
 
 <p align="center">
   🔥 Keep coding • Keep contributing • Keep improving
 </p>
+
 ---
 
 ## 🏆 GitHub Trophies
 
 <p align="center">
-
   <img
-    src="https://img.shields.io/badge/🏆_GitHub%20Achievements-181717?style=for-the-badge&logo=github&logoColor=white"
-    alt="GitHub Achievements"
+    src="./assets/github-trophy.svg"
+    alt="GitHub Trophies"
   />
-
-  <img
-    src="https://img.shields.io/badge/⭐_Open%20Source-FFD700?style=for-the-badge&logo=github&logoColor=black"
-    alt="Open Source"
-  />
-
-  <img
-    src="https://img.shields.io/badge/🚀_Developer-00D9FF?style=for-the-badge"
-    alt="Developer"
-  />
-
 </p>
 
 <p align="center">
@@ -198,26 +169,19 @@ I'm continuously building and learning through practical projects.
 ## 📈 Contribution Graph
 
 <p align="center">
-
-  <img
-    src="https://img.shields.io/github/commit-activity/y/CoderAzharAnsari62/CoderAzharAnsari62?style=for-the-badge&label=Yearly%20Contribution%20Activity&logo=github"
-    alt="Yearly Contribution Activity"
-  />
-
-  <img
-    src="https://img.shields.io/github/commit-activity/m/CoderAzharAnsari62/CoderAzharAnsari62?style=for-the-badge&label=Monthly%20Contribution%20Activity&logo=github"
-    alt="Monthly Contribution Activity"
-  />
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions.dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/contributions.light.svg">
+    <img src="./assets/contributions.light.svg" alt="GitHub Contribution Graph" />
+  </picture>
 </p>
 
 <p align="center">
-  <a href="https://github.com/CoderAzharAnsari62">
-    <img
-      src="https://img.shields.io/badge/📊%20Open%20GitHub%20Contribution%20Graph-181717?style=for-the-badge&logo=github&logoColor=white"
-      alt="Open GitHub Contribution Graph"
-    />
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/rhythm.dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/rhythm.light.svg">
+    <img src="./assets/rhythm.light.svg" alt="GitHub Contribution Rhythm" />
+  </picture>
 </p>
 
 ---
@@ -225,31 +189,11 @@ I'm continuously building and learning through practical projects.
 ## 🏅 GitHub Profile Overview
 
 <p align="center">
-
-  <img
-    src="https://img.shields.io/github/repo-size/CoderAzharAnsari62/CoderAzharAnsari62?style=for-the-badge&label=Profile%20Repo%20Size&logo=github"
-    alt="Profile Repository Size"
-  />
-
-  <img
-    src="https://img.shields.io/github/languages/count/CoderAzharAnsari62/CoderAzharAnsari62?style=for-the-badge&label=Languages&logo=github"
-    alt="Repository Languages"
-  />
-
-</p>
-
-<p align="center">
-
-  <img
-    src="https://img.shields.io/github/issues/CoderAzharAnsari62/CoderAzharAnsari62?style=for-the-badge&label=Issues&logo=github"
-    alt="Repository Issues"
-  />
-
-  <img
-    src="https://img.shields.io/github/forks/CoderAzharAnsari62/CoderAzharAnsari62?style=for-the-badge&label=Forks&logo=github"
-    alt="Repository Forks"
-  />
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/overview.dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/overview.light.svg">
+    <img src="./assets/overview.light.svg" alt="GitHub Profile Overview" />
+  </picture>
 </p>
 
 ---
@@ -257,32 +201,19 @@ I'm continuously building and learning through practical projects.
 ## 🧑‍💻 Top Languages
 
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/languages.dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/languages.light.svg">
+    <img src="./assets/languages.light.svg" alt="Top Programming Languages" />
+  </picture>
+</p>
 
-  <img
-    src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
-    alt="HTML5"
-  />
-
-  <img
-    src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
-    alt="CSS3"
-  />
-
-  <img
-    src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
-    alt="JavaScript"
-  />
-
-  <img
-    src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"
-    alt="React"
-  />
-
-  <img
-    src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"
-    alt="Node.js"
-  />
-
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/composition.dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/composition.light.svg">
+    <img src="./assets/composition.light.svg" alt="Language Composition" />
+  </picture>
 </p>
 
 ---
