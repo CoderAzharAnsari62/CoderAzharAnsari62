@@ -157,3 +157,8 @@ I'm continuously building and learning through practical projects.
 ---
 
 <h3 align="center">🚀 Learn • Build • Improve • Repeat</h3>
+
+<!-- AUTO-PROJECTS-START -->
+## 🚀 Latest GitHub Projects
+
+<!-- AUTO-PROJECTS-END -->
