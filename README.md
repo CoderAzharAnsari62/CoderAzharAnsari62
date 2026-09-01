@@ -91,34 +91,28 @@ I'm continuously building and learning through practical projects.
 ## 📊 GitHub Stats
 
 <p align="center">
-  <a href="https://github.com/CoderAzharAnsari62">
-    <img src="https://img.shields.io/badge/GitHub-View%20My%20Repositories-181717?style=for-the-badge&logo=github" />
-  </a>
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=CoderAzharAnsari62&theme=tokyonight"
+    alt="Azhar Ansari GitHub Profile Details"
+  />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CoderAzharAnsari62&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
----
-
-## 💡 Technologies I Work With
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,mysql,git,github,vscode,postman" />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=CoderAzharAnsari62&theme=tokyonight"
+    alt="Azhar Ansari GitHub Stats"
+  />
 </p>
 
 ---
 
-## 🔥 GitHub Activity
+## 🔥 GitHub Streak
 
 <p align="center">
-  <a href="https://github.com/CoderAzharAnsari62">
-    <img src="https://img.shields.io/github/followers/CoderAzharAnsari62?style=for-the-badge&logo=github&label=Followers" />
-  </a>
-  <a href="https://github.com/CoderAzharAnsari62?tab=repositories">
-    <img src="https://img.shields.io/badge/Public%20Repositories-View%20All-2ea44f?style=for-the-badge&logo=github" />
-  </a>
+  <img
+    src="https://streak-stats.demolab.com/?user=CoderAzharAnsari62&theme=tokyonight&hide_border=true"
+    alt="Azhar Ansari GitHub Streak"
+  />
 </p>
 
 ---
