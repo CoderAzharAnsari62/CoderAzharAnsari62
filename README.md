@@ -279,5 +279,8 @@ I'm continuously building and learning through practical projects.
 ---
 
 <!-- AUTO-PROJECTS-START -->
-No public projects available yet.
+### [portfolio](https://github.com/CoderAzharAnsari62/portfolio)
+
+No description available.
+
 <!-- AUTO-PROJECTS-END -->
