@@ -279,11 +279,11 @@ I'm continuously building and learning through practical projects.
 ---
 
 <!-- AUTO-PROJECTS-START -->
-### [pdf-question-app](https://github.com/CoderAzharAnsari62/pdf-question-app)
+### [portfolio](https://github.com/CoderAzharAnsari62/portfolio)
 
 No description available.
 
-### [portfolio](https://github.com/CoderAzharAnsari62/portfolio)
+### [pdf-question-app](https://github.com/CoderAzharAnsari62/pdf-question-app)
 
 No description available.
 
